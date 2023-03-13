@@ -26,7 +26,7 @@ public class CalculatorTest {
         int result = calculator.subtract(1, 2);
         assertEquals(-1,result);
     }
-//this is comment
+
     @Test
     void ShouldReturnFourForTwoAndTwo() {
         Calculator calculator = new Calculator();
