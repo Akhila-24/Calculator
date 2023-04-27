@@ -2,7 +2,7 @@ node{
   stage('tag'){
     sh 'ls -lrta'
     sh 'git log'
-    sh 'git tag calculator_latest_stable3 04701762609d450394fef182dcaebd0dea7e1daa'
-    sh 'git push origin'
+    sh 'git tag calculator_latest_stable4 04701762609d450394fef182dcaebd0dea7e1daa'
+    sh 'git push origin:main'
   }
 }
