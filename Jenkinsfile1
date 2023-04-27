@@ -1,5 +1,5 @@
 node{
-  withCredentials([usernamePassword(username:'Akhila-24',password:'Wonderfulcomeback@24')]){
+  withCredentials([usernamePassword(Username:'Akhila-24',Password:'Wonderfulcomeback@24')]){
   }
   stage('tag'){
     
