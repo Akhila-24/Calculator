@@ -1,11 +1,13 @@
 node{
+  withCredentials([usernamePassword(username:'Akhila-24',password:'Wonderfulcomeback@24')]){
+  }
   stage('tag'){
     
     sh 'ls -lrta'
     sh 'git branch'
     sh 'git checkout main'
     sh 'git log'
-    sh 'git tag calculator_latest_stable11 04701762609d450394fef182dcaebd0dea7e1daa'
+    sh 'git tag calculator_latest_stable12 04701762609d450394fef182dcaebd0dea7e1daa'
     sh 'git remote -v'
   sh 'git push -v origin -f calculator_latest_stable10:refs/tags/calculator_latest_stable10'
   }
